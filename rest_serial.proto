@@ -1,0 +1,13 @@
+package rest_serial;
+
+message Accelerometer {
+  repeated sint32 values = 1;
+}
+
+message Motors {
+  repeated sint32 values = 1;
+}
+
+message Actuators {
+  repeated sint32 values = 1;
+}
