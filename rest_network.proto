@@ -1,7 +1,0 @@
-package rest_network;
-
-message ControlNetworkData {
-  required sint32 left = 1;
-  required sint32 right = 2;
-  required int32 mode = 3;
-}
