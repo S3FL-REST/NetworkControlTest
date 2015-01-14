@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 
             dataTest.set_left(i);
             dataTest.set_right(-i);
-            dataTest.set_mode(1);
+            dataTest.set_mode(FULL_AUTON);
 
             if (socket.state() != QAbstractSocket::ConnectedState) {
                 qDebug() << "Socket Disconnected";
