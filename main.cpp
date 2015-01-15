@@ -32,8 +32,8 @@ int main(int argc, char *argv[])
         for (int i = -255; i <= 255; i++) {
             a.thread()->msleep(10);
 
-            dataTest.set_left(i);
-            dataTest.set_right(-i);
+            dataTest.set_joy_left(i);
+            dataTest.set_joy_right(-i);
             dataTest.set_mode(FULL_AUTON);
 
             if (socket.state() != QAbstractSocket::ConnectedState) {
