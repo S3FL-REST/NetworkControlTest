@@ -17,10 +17,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    Protocols/rest_network.pb.cc
+    protocols/rest_network.cpp
 
 HEADERS += \
-    Protocols/rest_network.pb.h \
-    Protocols/network_test.h
+    Protocols/network_test.h \
+    protocols/rest_network.h
 
 unix:!macx: LIBS += -lprotobuf
